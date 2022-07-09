@@ -41,12 +41,3 @@ Also i'm kinda aware that VSCode has it's own source code with github thingy on 
 
 `clear`<br>
 ^ You use this command to clear the git bash
-
-### Here's some GitHub CLI things for you
-
-### Setup
-`gh repo create git-test --private`<br>
-^ To create a private repo<br>
-
-
-
