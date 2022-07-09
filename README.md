@@ -1,8 +1,14 @@
-# How to use basic git!
+# How to use basic git! 🖥
 
 I made this repository for people who don't know how to use git and might want to start with it and for me when i eventually forget all of this stuff and need it!
 
 Also i'm kinda aware that VSCode has it's own source code with github thingy on the side-bar, but i still think it's important to learn these kind of things 
+
+If i missed something i might update it some day
+
+<div align="center">
+<img  width="160px" src="https://camo.githubusercontent.com/ea09d843e584c4c4365baf0f1b8e691a36e7355536170ea93d45ca58308e507a/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f6e612d6c6f6164696e672d6461726b2e676966">
+</div>
 
 > Be aware that to follow this tutorial you should have downloaded git and optionally CLI-GH (GitHub for command line)<br>
 
@@ -10,14 +16,20 @@ Also i'm kinda aware that VSCode has it's own source code with github thingy on 
 - https://git-scm.com/downloads
 - https://cli.github.com/
 
-## Index
+## 📓 Index
 - [Setup](#setup)
 - [Commiting](#commiting)
 - [Other things](#other-things)
 
-### Setup:
+### 🌿 Setup:
 `git init`<br>
 ^ Starts a github repo<br>
+
+- Now on other CLI using GH CLI you have to create a new repo
+
+`gh repo create git-tuto`<br>
+^ Creates a remote repo on your github account (you had to login before this lol!)<br>
+
 `git remote add origin https://github.com/amyspark-ng/git-tuto.git`<br>
 ^ Adds the the remote URL to send the commits and pushes
 `git add .`<br>
@@ -29,13 +41,13 @@ Also i'm kinda aware that VSCode has it's own source code with github thingy on 
 `git push -u origin main`<br>
 ^ Pushes the commits to the origin remote URL and to the main branch
 
-### Commiting
+### 🧵 Commiting
 `git add .`<br>
 `git commit -m "Changed stuff"`<br>
 `git push`<br>
 ^ Pushes all commits to current branch to current remote URL
 
-## Other things
+## 🪶 Other things
 `rm -fr .git`<br>
 ^ You use this command to delete the git stuff<br>
 
