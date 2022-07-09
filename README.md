@@ -31,7 +31,7 @@ If i missed something i might update it some day
 ^ Creates a remote repo on your github account (you had to login before this lol!)<br>
 
 `git remote add origin https://github.com/amyspark-ng/git-tuto.git`<br>
-^ Adds the the remote URL to send the commits and pushes
+^ Adds the the remote URL to send the commits and pushes<br>
 `git add .`<br>
 ^ Adds new or changed files<br>
 `git branch -M main`<br>
