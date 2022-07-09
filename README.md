@@ -28,8 +28,8 @@ Also i'm kinda aware that VSCode has it's own source code with github thingy on 
 ^ Creates and moves to the main branch, even tho i think you can just set it as the default name or something like that<br>
 `git commit -m "Initial commit 😎"`<br>
 ^ Commits those changes<br>
-`git push -u origin main`<br>
-^ Pushes the commits to the origin remote URL and to the main branch
+`git push`<br>
+^ Pushes the local commits to the current CLI and the current branch
 
 ## Commiting
 `git add .`<br>
