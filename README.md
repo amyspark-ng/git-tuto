@@ -15,9 +15,7 @@ Also i'm kinda aware that VSCode has it's own source code with github thingy on 
 - [Commiting](#commiting)
 - [Other things](#other-things)
 
-## Setup
-
-### The local stuff
+### Setup:
 `git init`<br>
 ^ Starts a github repo<br>
 `git remote add origin https://github.com/amyspark-ng/git-tuto.git`<br>
@@ -28,15 +26,27 @@ Also i'm kinda aware that VSCode has it's own source code with github thingy on 
 ^ Creates and moves to the main branch, even tho i think you can just set it as the default name or something like that<br>
 `git commit -m "Initial commit 😎"`<br>
 ^ Commits those changes<br>
-`git push`<br>
-^ Pushes the local commits to the current CLI and the current branch
+`git push -u origin main`<br>
+^ Pushes the commits to the origin remote URL and to the main branch
 
-## Commiting
+### Commiting
 `git add .`<br>
 `git commit -m "Changed stuff"`<br>
-`git push -u origin main`<br>
+`git push`<br>
+^ Pushes all commits to current branch to current remote URL
 
 ## Other things
 `rm -fr .git`<br>
 ^ You use this command to delete the git stuff<br>
+
+`clear`<br>
+^ You use this command to clear the git bash
+
+### Here's some GitHub CLI things for you
+
+### Setup
+`gh repo create git-test --private`<br>
+^ To create a private repo<br>
+
+
 
