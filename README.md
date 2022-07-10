@@ -1,4 +1,4 @@
-# How to use basic git! 🖥
+﻿# How to use basic git! 🖥
 
 I made this repository for people who don't know how to use git and might want to start with it and for me when i eventually forget all of this stuff and need it!
 
@@ -46,12 +46,18 @@ If i missed something i might update it some day
 `git push`<br>
 ^ Pushes all commits to current local branch to current remote URL<br>
 
-### 🪶 Other things
+### 🪶 Other useful commands
+`clear`<br>
+^ You use this command to clear the git bash
+
 `git pull origin main`<br>
 ^ You can use this command to pull changes from the remote branch<br>
 
+`git remote get-url origin`<br>
+^ You can get the url of the origin remote URL<br>
+
+`git remote rm origin`<br>
+^ You can use this command to delete a remote URL<br>
+
 `rm -fr .git`<br>
 ^ You use this command to delete the git stuff<br>
-
-`clear`<br>
-^ You use this command to clear the git bash
